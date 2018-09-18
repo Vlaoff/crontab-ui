@@ -1,0 +1,7 @@
+version: "3"
+services:
+  crontab-ui:
+    build: .
+    ports:
+    - "9001:8000"
+    restart: always
